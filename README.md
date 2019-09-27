@@ -11,7 +11,7 @@ This table consists of 4 fields:
 - id: a numerical progressive identifier (AUTOINCREMENT) that serves as PRIMARY KEY;
 - username;
 - email;
-- password: encrypted with the md5 algorithm. 
+- password: encrypted with md5 algorithm. 
 
 You can find the sql file in the repository under the name of "persona.sql".
 
