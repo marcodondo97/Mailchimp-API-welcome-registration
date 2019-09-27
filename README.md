@@ -1,4 +1,4 @@
-# Mailchimp_API_welcomere_gistration
+# Mailchimp_API_welcome_registration
 In this repository you can learn how to implement API Mailchimp for send welcome email to users registered. 
 
 The registration template have downloaded at https://colorlib.com/wp/html5-and-css3-login-forms/
