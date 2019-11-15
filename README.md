@@ -46,3 +46,17 @@ To get them, you need to register on the site via https://mailchimp.com/ and the
   - copy the string and paste in file php YOUR_LISTID.
   
 When people will subscribe in your website they automatically will receive the email that you created before in the step 1.
+
+
+<h2> Images </h2>
+
+<img src="screenshot/mailchimp_reg1.jpg" width="40%"/>
+Screenshot
+
+<img src="screenshot/mailchimp_reg3.jpg" width="40%"/>
+Error control password
+
+<img src="screenshot/mailchimp_reg2.jpg" width="40%"/>
+Succes!
+
+
