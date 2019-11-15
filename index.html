@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Mailchimp registration</title>
+    <meta name="description" content="Example of mailchimp registration">
+    <meta name="author" content="Marco Dondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!--css file -->
+    <script src="./js/script.js"></script>
+    <!--js file -->
+    <!--Bootstrap CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="message"> </div>
+    <div class="container-fluid" id="wrap">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 " id="sub">
+                <h1> Sign up</h1>
+                <form name="modulo">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class=" glyphicon glyphicon-user color-blue"></i></span>
+
+                            <input type="text" class="form-control" id="username" aria-describedby="emailHelp" name="username" placeholder="Enter username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope "></i></span>
+                            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass1">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class=" glyphicon glyphicon-lock"></i></span>
+
+                            <input type="password" name="pass1" class="form-control" id="pass1" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass2"> Repeat password</label>
+                        <input type="password" name="pass2" class="form-control" id="pass2" placeholder=" Repeat password">
+                    </div>
+                    <input class="btn btn-primary" type="button" id="bottone" value="Confirm" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+ body {
+     background-color: aliceblue !important;
+     
+ }
+
+ #wrap {
+     margin-top: 100px;
+
+ }
+
+ #sub {
+     border: solid 1px black;
+     background-color: white;
+     padding: 20px;
+ }
+
+ #message {
+     position: relative;
+     top: 10px;
+     z-index: 9999;
+ }
