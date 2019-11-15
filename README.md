@@ -1,19 +1,22 @@
 # Mailchimp_API_welcome_registration
 In this repository you can learn how to implement API Mailchimp for send welcome email to users registered. 
 
-The registration template have downloaded at https://colorlib.com/wp/html5-and-css3-login-forms/
+
 
 
 To create this demo I used the PHP language. 
 After entering the fields in the form the data is saved in the MySQL database in the "persona" table.
-This table consists of 4 fields:
+This table consists of 5 fields:
 
 - id: a numerical progressive identifier (AUTOINCREMENT) that serves as PRIMARY KEY;
 - username;
 - email;
 - password: encrypted with md5 algorithm. 
+- date: current time stamp
 
-You can find the sql file in the repository under the name of "persona.sql".
+You can find the sql file in the repository under the database "registrationmailchimp_db.sql" file.
+
+Design has created with Bootstrap.
 
 After that we can call the MailChimp's API.
 It is important to enter your APIKey and ListID credentials.
