@@ -1,7 +1,10 @@
 # Mailchimp_API_welcome_registration
+
+<h2>Introduction </h2>
+
 In this repository you can learn how to implement API Mailchimp for send welcome email to users registered. 
 
-
+<h2>Description </h2>
 
 
 To create this demo I used the PHP language. 
