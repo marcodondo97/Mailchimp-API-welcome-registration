@@ -24,19 +24,19 @@ It is important to enter your APIKey and ListID credentials.
 To get them, you need to register on the site via https://mailchimp.com/ and then do the following:
 
 1. First of all you need to create your first email campaign
-    - click on "campaigns";
-    - click on "create campaign";
-    - click on "email";
-    - click on "automated";
-    - click on "welcome new subscribe";
-    - create your personalized email.
+  - click on "campaigns";
+  - click on "create campaign";
+  - click on "email";
+  - click on "automated";
+  - click on "welcome new subscribe";
+  - create your personalized email.
     
 2. Get APIKey
-   - click on Mailchimp logo :monkey: ;
-   - click on your name in top right of page dropdown;
-   - click on "extra";
-   - click on "apikey";
-   - copy the string and paste in file php YOUR_APIKEY;
+  - click on Mailchimp logo :monkey: ;
+  - click on your name in top right of page dropdown;
+  - click on "extra";
+  - click on "apikey";
+  - copy the string and paste in file php YOUR_APIKEY;
  
 3. Get ListID
   - click on "audience" on navbar; 
