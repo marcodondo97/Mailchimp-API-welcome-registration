@@ -60,6 +60,6 @@ Screenshot
 Error control password
 
 <img src="screenshot/mailchimp_reg2.jpg" width="40%"/>
-Succes!
+Success!
 
 
